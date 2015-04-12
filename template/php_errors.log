@@ -1,0 +1,2 @@
+[12-Apr-2015 21:44:16 UTC] PHP Warning:  include(content.php): failed to open stream: No such file or directory in C:\Users\j.oliver\Documents\NetBeansProjects\feed-converter\template\template_engine.php on line 30
+[12-Apr-2015 21:44:16 UTC] PHP Warning:  include(): Failed opening 'content.php' for inclusion (include_path='.;C:\php\pear') in C:\Users\j.oliver\Documents\NetBeansProjects\feed-converter\template\template_engine.php on line 30
