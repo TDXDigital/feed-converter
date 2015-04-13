@@ -1,12 +1,21 @@
 <?php
+/*
+ * System should allow referencing RSS, Atom, XML feeds and selecting primary 
+ * field to convert to URL
+ */
+
+$path = ltrim($_SERVER['REQUEST_URI'], '/');    // Trim leading slash(es)
+$elements = explode('/', $path);                // Split path on slashes
+$depth = sizeof($elements);
+
+require_once 'includes/includes.php';
+require_once 'template/template_engine.php';
+//require_once 'template/controller.php';
 
 function ShowError(){
     
 }
 
-
-$path = ltrim($_SERVER['REQUEST_URI'], '/');    // Trim leading slash(es)
-$elements = explode('/', $path);                // Split path on slashes
 if(count($elements) == 0)                       // No path elements means home
 {
     header('HTTP/1.1 500 Internal Server Error');

@@ -1,8 +1,8 @@
 <?php
-require 'template_engine.php';
+require_once 'template_engine.php';
 
 $view = new Template();
-$view->title = "Error 404";
+$view->title = "Welcome";
 $view->links = array(
         array(
             'display'=>"List Entries",
@@ -14,6 +14,6 @@ $view->links = array(
             'href'=>"../api",
             'target'=>'_self'
         ));
-$view->body = "Hi, sup";
+$view->body = "Rendering new Bootstrap Template??";
 $view->content = $view->render('content.php');
-echo $view->render('main.php');
+echo $view->render('tpl/cover.php');
