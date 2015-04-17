@@ -41,28 +41,28 @@ function include_sources($include_params,$page_depth){
                 array_push($val,array("foot","<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js'></script>"));
                 break;
             case "bootstrap-superhero":
-                //array_push($val,array("foot","<script src='".$nav_depth."includes/superhero/bootstrap.min.css'></script>"));
-                array_push($val,array("head","<link href='".$nav_depth."includes/superhero/bootstrap.min.css'/>"));
+                //array_push($val,array("foot","<script src='".$nav_depth."includes/superhero/bootstrap.min.css' rel='stylesheet' ></script>"));
+                array_push($val,array("head","<link href='".$nav_depth."includes/superhero/bootstrap.min.css' rel='stylesheet' />"));
                 array_push($val,array("head","<link href='".$nav_depth."includes/superhero/bootstrap.less'/>"));
                 break;
             case "bootstrap-3.3.4":
-                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap.min.css'/>"));
-                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap-theme.min.css'/>"));
+                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' />"));
+                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap-theme.min.css' rel='stylesheet' />"));
                 array_push($val,array("foot","<script src='".$nav_depth."includes/bootstrap/3.3.4/js/bootstrap.min.js'></script>"));
                 break;
             case "bootstrap-3.3.2":
-                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.2/css/bootstrap.min.css'/>"));
-                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.2/css/bootstrap-theme.min.css'/>"));
+                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.2/css/bootstrap.min.css' rel='stylesheet' />"));
+                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.2/css/bootstrap-theme.min.css' rel='stylesheet' />"));
                 array_push($val,array("foot","<script src='".$nav_depth."includes/bootstrap/3.3.2/js/bootstrap.min.js'></script>"));
                 break;
             case "bootstrap-latest":
-                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap.min.css'/>"));
-                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap-theme.min.css'/>"));
+                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' />"));
+                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap-theme.min.css' rel='stylesheet' />"));
                 array_push($val,array("foot","<script src='".$nav_depth."includes/bootstrap/3.3.4/js/bootstrap.min.js'></script>"));
                 break;
             case "bootstrap":
-                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap.min.css'/>"));
-                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap-theme.min.css'/>"));
+                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap.min.css' rel='stylesheet' />"));
+                array_push($val,array("head","<link href='".$nav_depth."includes/bootstrap/3.3.4/css/bootstrap-theme.min.css' rel='stylesheet' />"));
                 array_push($val,array("foot","<script src='".$nav_depth."includes/bootstrap/3.3.4/js/bootstrap.min.js'></script>"));
                 break;
         }

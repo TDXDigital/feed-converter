@@ -16,4 +16,4 @@ $view->links = array(
         ));
 $view->body = "Rendering new Bootstrap Template??";
 $view->content = $view->render('content.php');
-echo $view->render('tpl/cover.php');
+echo $view->render('tpl/basic.php');

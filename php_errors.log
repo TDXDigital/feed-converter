@@ -13,3 +13,7 @@
 [13-Apr-2015 00:50:35 UTC] PHP Notice:  Undefined variable: depth in C:\Users\j.oliver\Documents\NetBeansProjects\feed-converter\template\tpl\cover.php on line 2
 [13-Apr-2015 00:50:35 UTC] PHP Notice:  Undefined variable: depth in C:\Users\j.oliver\Documents\NetBeansProjects\feed-converter\includes\includes.php on line 26
 [13-Apr-2015 00:52:40 UTC] PHP Notice:  Undefined variable: depth in C:\Users\j.oliver\Documents\NetBeansProjects\feed-converter\template\tpl\cover.php on line 2
+[17-Apr-2015 04:14:33 UTC] PHP Notice:  Undefined variable: sources in C:\Users\James\Documents\feed-converter\template\tpl\basic.php on line 17
+[17-Apr-2015 04:14:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\James\Documents\feed-converter\template\tpl\basic.php on line 17
+[17-Apr-2015 04:14:33 UTC] PHP Notice:  Undefined variable: sources in C:\Users\James\Documents\feed-converter\template\tpl\basic.php on line 643
+[17-Apr-2015 04:14:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in C:\Users\James\Documents\feed-converter\template\tpl\basic.php on line 643
